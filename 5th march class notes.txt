@@ -1,0 +1,166 @@
+VERSION CONTROL SYSTEM:-
+
+A Version Control System (VCS) is a tool that helps track and 
+manage changes to a project's files over time.It allows multiple people
+ to work on the same project without overwriting each other's work and makes 
+it easy to track and revert changes.
+
+Key features of VCS:
+
+History tracking: Keeps a record of changes, allowing you to see who changed what and when.
+
+Collaboration: Multiple users can work on the same project simultaneously without conflict.
+
+Backup: You can recover previous versions of files or undo changes if needed.
+
+In essence, VCS helps ensure that software development or any collaborative work 
+stays organized and manageable. Examples include Git, Subversion (SVN), and Mercurial.
+
+TYPES OF VERSION CONTROL SYSTEMS:-
+
+Centralized Version Control System (CVCS):
+
+There is a central server where all project files and version history are stored.
+Users check out files from the central repository, make changes, and commit them back to the server.
+Example: Subversion (SVN).
+
+Distributed Version Control System (DVCS):
+
+Each user has their own complete copy of the repository, including all versions and history.
+Users can work offline and later sync with others when connected.
+Example: Git.
+
+Centralized Version Control System (CVCS):
+
+There is a central server where all project files and version history are stored.
+Users check out files from the central repository, make changes, and commit them back to the server.
+Example: Subversion (SVN).
+
+Distributed Version Control System (DVCS):
+
+Each user has their own complete copy of the repository, including all versions and history.
+Users can work offline and later sync with others when connected.
+Example: Git.
+
+						GIT
+GIT:- global information tracker.
+
+Git is a distributed version control system (DVCS) used to track changes in source code 
+during software development. It allows multiple developers to collaborate on a project,
+ manage different versions of the code, and maintain a history of changes. 
+Git is widely used in software development due to its efficiency, flexibility,
+ and support for non-linear workflows.
+
+Key Features of Git:
+
+Distributed System: Every developer has a full copy of the repository, 
+including its history, on their local machine.
+
+Branching and Merging: Git makes it easy to create branches for new features 
+or bug fixes and merge them back into the main codebase.
+
+History Tracking: Git keeps a complete history of changes, allowing you to revert
+ to previous versions if needed.
+
+Collaboration: Git enables multiple developers to work on the same project simultaneously without conflicts.
+
+Open Source: Git is free and open-source, maintained by the community.
+
+
+1. Git
+What it is: Git is a distributed version control system (DVCS).
+
+Purpose: Tracks changes in source code and enables collaboration among developers.
+
+Key Features:
+
+Tracks file changes and history.
+
+Supports branching and merging.
+
+Allows offline work (since it's distributed).
+
+Manages code repositories locally.
+
+Usage: Git is a command-line tool, but it also has graphical user interfaces (GUIs) like GitKraken, Sourcetree, etc.
+
+Example Command:
+
+bash
+Copy
+git commit -m "Added new feature"
+2. GitHub
+What it is: GitHub is a cloud-based platform built around Git.
+
+Purpose: Hosts Git repositories and provides collaboration tools for developers.
+
+Key Features:
+
+Hosts remote Git repositories.
+
+Provides a web-based interface for managing repositories.
+
+Offers collaboration tools like pull requests, issues, and project boards.
+
+Includes CI/CD (Continuous Integration/Continuous Deployment) via GitHub Actions.
+
+Supports community features like forking and starring repositories.
+
+Pricing:
+
+Free for public repositories.
+
+Paid plans for private repositories and advanced features.
+
+Example Use Case:
+
+A team uses GitHub to host their code, review pull requests, and track issues.
+
+3. GitLab
+What it is: GitLab is a web-based DevOps platform built around Git.
+
+Purpose: Provides a complete DevOps lifecycle tool, including version control, CI/CD, and collaboration.
+
+Key Features:
+
+Hosts remote Git repositories (like GitHub).
+
+Includes built-in CI/CD pipelines.
+
+Offers project management tools like issue tracking, milestones, and epics.
+
+Provides DevOps features like container registry, monitoring, and security scanning.
+
+Can be self-hosted (unlike GitHub, which is primarily cloud-based).
+
+Pricing:
+
+Free tier available with basic features.
+
+Paid plans for advanced DevOps and enterprise features.
+
+Example Use Case:
+
+A team uses GitLab to manage their code, automate testing and deployment, and track project progress.
+
+
+
+When to Use Which?
+
+Git:
+
+Use Git when you need to track changes locally or don’t need remote hosting.
+
+Ideal for individual developers or small teams working offline.
+
+GitHub:
+
+Use GitHub for hosting Git repositories and collaborating on open-source or private projects.
+
+Great for teams that want a user-friendly interface and strong community features.
+
+GitLab:
+
+Use GitLab for a complete DevOps solution, including CI/CD, project management, and self-hosting options.
+
+Ideal for teams that want an all-in-one platform for development and deployment.
